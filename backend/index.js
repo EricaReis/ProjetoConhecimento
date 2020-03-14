@@ -5,7 +5,6 @@ app.listen(3000, () => {
     console.log('***backend executando!***');
 })
 
-const consign = require('consign')
 const db = require('./config/db')
 
 app.db = db
